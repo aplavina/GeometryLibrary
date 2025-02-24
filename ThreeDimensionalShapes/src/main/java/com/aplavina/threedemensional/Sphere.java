@@ -1,7 +1,7 @@
 package com.aplavina.threedemensional;
 
 public class Sphere implements ThreeDemensionalFigure {
-    private double radius;
+    private final double radius;
 
     public Sphere(double radius) {
         this.radius = radius;
