@@ -1,4 +1,4 @@
-package com.aplavina.geomtry;
+package com.aplavina.figures;
 
 public class Circle implements Figure {
     private final double radius;

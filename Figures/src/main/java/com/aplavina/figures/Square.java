@@ -1,4 +1,4 @@
-package com.aplavina.geomtry;
+package com.aplavina.figures;
 
 public class Square implements Figure {
     private final double side;

@@ -1,4 +1,4 @@
-package com.aplavina.geomtry;
+package com.aplavina.figures;
 
 public interface Figure {
     double perimeter();
