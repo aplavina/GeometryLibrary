@@ -7,6 +7,9 @@ public class Triangle implements Figure {
     private final double thirdSide;
 
     public Triangle(double firstSide, double secondSide, double thirdSide) {
+        if (firstSide + secondSide <= thirdSide || firstSide + thirdSide <= secondSide || secondSide + thirdSide <= firstSide) {
+            throw new IllegalArgumentException("invalid triangle");
+        }
         this.firstSide = firstSide;
         this.secondSide = secondSide;
         this.thirdSide = thirdSide;
